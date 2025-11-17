@@ -5,9 +5,9 @@
   <title>Windermere House Cleaning ™</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <!-- SEO: target both correct and common search variants -->
-  <meta name="description" content="Windermere House Cleaning ™ provides professional house cleaning and maid services in Windermere, Florida. Move out cleaning, deep cleaning, and recurring cleanings. Call today." />
-  <meta name="keywords" content="Windermere House Cleaning, House Cleaning Windermere, House Cleaning in Windermere, Move Out Cleaning Windermere, Windermere FL house cleaning, House Cleaning Winderemere, House Cleaning in Winderemere, Move Out Cleaning Winderemere, Windermere Florida" />
+  <!-- SEO targeting -->
+  <meta name="description" content="Windermere House Cleaning ™ provides professional house cleaning and maid services in Windermere, Florida. Deep cleaning, move out cleaning, and recurring cleanings for Windermere FL and nearby communities." />
+  <meta name="keywords" content="House Cleaning Windermere, Windermere House Cleaning, House Cleaning in Windermere, Move Out Cleaning Windermere, Windermere Florida, Windermere FL" />
   <meta property="og:site_name" content="Windermere House Cleaning ™" />
   <meta property="og:title" content="Windermere House Cleaning ™" />
 
@@ -23,7 +23,6 @@
       --soft:#f5f7fb;
     }
 
-    /* Base */
     *{box-sizing:border-box}
     html,body{margin:0}
     body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;line-height:1.5;color:var(--text);background:#fff}
@@ -49,7 +48,7 @@
     .hero .sub{font-size:20px;opacity:.95;margin:0 0 18px}
     .hero .card{
       background:rgba(0,0,0,.65);border-radius:8px;padding:24px 24px 12px;box-shadow:var(--shadow);text-align:center;
-      margin-bottom:32px; /* ensures clear space after the card */
+      margin-bottom:32px;
     }
     .hero .card h3{margin:0 0 12px}
     .hero .card ul{margin:0 0 12px 18px;text-align:left;display:inline-block}
@@ -62,24 +61,24 @@
     }
     .btn:hover{background:var(--accent-dark);filter:brightness(1.06);transform:translateY(-1px);text-decoration:none}
 
-    /* Stats (moved completely out of header) */
-    .stats{background:#fff;padding:0 0 28px}
-    .stats .row{display:grid;grid-template-columns:repeat(5,1fr);gap:18px;align-items:stretch;justify-items:stretch}
-    .sbox{background:#0e74b5;color:#fff;border-radius:8px;padding:16px;text-align:center;box-shadow:0 8px 22px rgba(0,0,0,.12)}
-    .sbox p{margin:0;font-weight:700}
+    /* Stat row placed below hero with generous spacing */
+    .stats{background:#fff;padding:56px 0 36px;margin-top:12px}
+    .stats .row{display:grid;grid-template-columns:repeat(5,1fr);gap:22px}
+    .sbox{background:#0e74b5;color:#fff;border-radius:8px;padding:18px;text-align:center;box-shadow:0 8px 22px rgba(0,0,0,.12)}
+    .sbox p{margin:0;font-weight:800}
 
     /* Sections */
     section h2{font-size:34px;margin:0 0 26px}
     .lead{color:#666}
 
-    /* Steps */
-    .how{padding:56px 0;background:#fff;text-align:center}
+    /* How it works */
+    .how{padding:64px 0 56px;background:#fff;text-align:center}
     .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:34px}
     .step{background:#f7fafc;border:1px solid #e6eef7;border-radius:10px;padding:24px}
     .step h3{margin:6px 0 8px;letter-spacing:1px}
     .step p{margin:0;color:#555}
 
-    /* Services area with bg and cards using your images */
+    /* Services with bg */
     .services{
       position:relative;color:#111;padding:64px 0;background:
         linear-gradient(0deg, rgba(255,255,255,.92), rgba(255,255,255,.92)),
@@ -93,7 +92,7 @@
     .scard p{margin:0 16px 18px;color:#444}
     .scard img{width:100%;height:220px;object-fit:cover}
 
-    /* Rich SEO content blocks */
+    /* Long-form SEO blocks */
     .seo{padding:48px 0;background:#fff}
     .flow{display:grid;grid-template-columns:1fr 420px;gap:28px;align-items:start;margin:26px auto;max-width:var(--max)}
     .flow.right{grid-template-columns:420px 1fr}
@@ -155,11 +154,7 @@
           <div>
             <h1>Trusted. Reliable. Affordable. Since 1987.</h1>
             <p class="sub">Windermere House Cleaning ™ serves Windermere FL and nearby communities in Central Florida.</p>
-
-            <!-- Keyword support without stuffing -->
-            <p>People often search for <strong>House Cleaning Windermere</strong>, <strong>Windermere House Cleaning</strong>, and <strong>House Cleaning in Windermere</strong>. If you typed <strong>House Cleaning Winderemere</strong> or <strong>House Cleaning in Winderemere</strong> we are the same trusted local service in <strong>Windermere Florida</strong>.</p>
-
-            <p>We specialize in weekly house cleaning, bi weekly house cleaning, monthly house cleaning, deep cleaning, move in cleaning and <strong>move out cleaning Windermere</strong>, small office cleaning, and more. We have been cleaning homes for 35 years.</p>
+            <p>We specialize in weekly house cleaning, bi weekly house cleaning, monthly house cleaning, deep cleaning, move in cleaning and <strong>Move Out Cleaning Windermere</strong>, small office cleaning, and more. We have been cleaning homes for 35 years.</p>
           </div>
 
           <aside class="card">
@@ -179,7 +174,7 @@
     </section>
   </header>
 
-  <!-- Stats: now completely outside the header and below the hero image -->
+  <!-- Stats below hero with extra space -->
   <section class="stats">
     <div class="wrap">
       <div class="row">
@@ -213,35 +208,29 @@
     </div>
   </section>
 
-  <!-- Our Services -->
+  <!-- Our Services with cards and full list from the original Windermere page -->
   <section class="services">
     <div class="wrap">
       <h2>Our Services</h2>
-
       <div class="cardgrid">
         <article class="scard">
           <img src="every-room.jpg" alt="Regular house cleaning in Windermere FL">
           <h3>Regular House Cleaning</h3>
-          <p>Choose weekly, bi weekly, tri weekly, or monthly to keep your home consistently tidy.</p>
+          <p>Our most requested service in Windermere. Choose weekly, bi weekly, tri weekly, or monthly to keep your home consistently tidy.</p>
         </article>
-
         <article class="scard">
           <img src="all-rooms-move.jpeg" alt="Deep cleaning service in Windermere Florida">
           <h3>Deep Cleaning</h3>
-          <p>Extra attention on baseboards, points of contact, bathrooms, and kitchens before starting a recurring plan.</p>
+          <p>Perfect when you want extra attention on baseboards, points of contact, bathrooms, and kitchens before starting a recurring plan.</p>
         </article>
-
         <article class="scard">
           <img src="move-out-cleaning.png" alt="Move in and move out cleaning Windermere FL">
           <h3>Move In Cleaning and Move Out Cleaning</h3>
-          <p>Detailed cleaning for a smooth move. We get your place ready for new keys or help you enjoy a fresh start.</p>
+          <p>Detailed cleaning for a smooth move. We get your place ready for new keys or help you enjoy a fresh start at your new home.</p>
         </article>
       </div>
 
-      <!-- Keep your SEO-rich list intact -->
-      <div class="lead">
-        <p>We offer a <strong>full range of residential home cleaning services</strong>, including:</p>
-      </div>
+      <p>We offer a <strong>full range of residential home cleaning services</strong>, including:</p>
       <ul>
         <li>Regular maid service (weekly, bi-weekly, tri-weekly, monthly)</li>
         <li>One-time or special occasion cleaning</li>
@@ -257,18 +246,17 @@
     </div>
   </section>
 
-  <!-- SEO content blocks -->
+  <!-- Rich SEO intro block from the earlier long version -->
   <section class="seo">
     <div class="wrap">
-      <h2>Affordable Home Cleaning and Maid Services in Windermere Florida</h2>
-
+      <h2>House Cleaning Windermere FL</h2>
       <div class="flow">
         <div class="txt">
-          <p><strong>Windermere House Cleaning ™ has helped Florida homeowners keep their spaces fresh for more than 35 years.</strong> We are known for reliable house cleaning in Windermere FL, Winter Garden, Dr. Phillips, Horizon West, Bay Hill, and nearby Central Florida communities.</p>
-          <p>Whether you searched for <strong>House Cleaning in Windermere</strong> or <strong>House Cleaning in Winderemere</strong> we can help. Our rates are straightforward and competitive. Ask for a fast free estimate and we will tailor service to your needs.</p>
+          <p><strong>Windermere House Cleaning ™ has helped Florida homeowners keep their spaces fresh for more than 35 years.</strong> Our cleaners are trusted across Windermere, Winter Garden, Dr. Phillips, Horizon West, Bay Hill and other Central Florida neighborhoods. As a locally operated team, we deliver dependable house cleaning and maid service throughout the Orlando area, including your street in Windermere Florida.</p>
+          <p>Our rates are straightforward and competitive. Whether you want a one time cleaning like move out cleaning or move in cleaning, a detailed deep cleaning, or a recurring plan, our Windermere team is ready to help. Call for a fast free estimate and we will tailor service to your needs.</p>
         </div>
         <figure>
-          <img src="kitchen-move.jpg" alt="Clean kitchen after a Windermere deep clean">
+          <img src="kitchen-move.jpg" alt="Clean and bright kitchen after a Windermere deep clean">
           <figcaption>Friendly, trained professionals ready to help</figcaption>
         </figure>
       </div>
@@ -276,33 +264,33 @@
       <h2>Why Choose Us</h2>
       <div class="flow right">
         <figure>
-          <img src="every-room.jpg" alt="Tidy living space after scheduled cleaning">
-          <figcaption>Trusted local team</figcaption>
+          <img src="every-room.jpg" alt="Tidy living space after scheduled cleaning in Windermere FL">
+          <figcaption>Why local families choose us</figcaption>
         </figure>
         <div class="txt">
           <ul>
-            <li>Reliable service with an excellent reputation</li>
-            <li>A division of <strong>Humble House Cleaning</strong></li>
-            <li>Efficient and consistent scheduling</li>
-            <li>Stable company that believes in doing the right thing</li>
-            <li>Background checks for your peace of mind</li>
-            <li>We handle all legal and employment requirements</li>
-            <li>Personalized plans for any housekeeping need</li>
+            <li>We are <strong>reliable</strong> and have an <strong>excellent reputation</strong>, serving Central Florida for over 35 years.</li>
+            <li>We are a division of <strong>Humble House Cleaning</strong>, a trusted name in the industry.</li>
+            <li>We are <strong>efficient</strong>, <strong>reliable</strong>, and do not cancel at the last minute.</li>
+            <li>We are a <strong>stable company</strong> that believes in always doing the right thing.</li>
+            <li>Background screening for every employee ensures your <strong>safety and peace of mind</strong>.</li>
+            <li>We manage all <strong>employment and tax requirements</strong> so you never have to worry about paperwork.</li>
+            <li>Cleaning plans are <strong>personalized</strong> from basic tidying to detailed housekeeping.</li>
           </ul>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Residential -->
+  <!-- Residential block preserved -->
   <section class="seo">
     <div class="wrap">
       <h2>Residential Cleaning Services</h2>
       <div class="flow">
         <div class="txt">
-          <p>We are your <strong>trusted pros for residential cleaning</strong> in Windermere FL. Let Windermere House Cleaning ™ take care of deep cleaning, spring cleaning, or anytime cleaning. We do it all at a fair rate.</p>
-          <p>We can provide <strong>daily, weekly, every other week, monthly, or occasional one-time service</strong>. We handle move in and <strong>move out cleaning Windermere</strong>, remodel cleaning, and construction cleaning. We have been cleaning homes for 35 years.</p>
-          <p>Our employees are <strong>reliable, courteous, and friendly</strong>. Visit <a href="https://www.humblehousecleaning.com">HumbleHouseCleaning.com</a> for a free estimate.</p>
+          <p>We are your <strong>trusted pros for residential cleaning</strong> in Windermere Florida. Let Windermere House Cleaning ™ handle deep cleans, spring refreshes, and regular upkeep while you enjoy life in Windermere. Quality work at a price that makes sense. Get a no obligation quote at <a href="https://www.humblehousecleaning.com">HumbleHouseCleaning.com</a>.</p>
+          <p>We can arrive <strong>daily, weekly, every other week, monthly, or only when you call us</strong>. Need move in or construction cleanup. We have done it successfully for 35 years and counting.</p>
+          <p>Our team members are <strong>courteous, punctual, and fully trained</strong>. See why Windermere neighbors keep referring us. Ask for your free estimate today at <a href="https://www.humblehousecleaning.com">HumbleHouseCleaning.com</a>.</p>
         </div>
         <figure>
           <img src="every-room.jpg" alt="Windermere residential cleaning">
@@ -312,45 +300,46 @@
     </div>
   </section>
 
-  <!-- Move out / move in -->
+  <!-- Move out / move in preserved -->
   <section class="seo">
     <div class="wrap">
       <h2>Move Out and Move In Cleaning Services</h2>
-
       <div class="flow right">
         <figure>
-          <img src="move-out-cleaning.png" alt="Boxes ready for move out cleaning Windermere">
+          <img src="move-out-cleaning.png" alt="Boxes ready for move out cleaning in Windermere Florida">
           <figcaption>Move Out Cleaning Windermere FL</figcaption>
         </figure>
         <div class="txt">
-          <p>We provide <strong>Move Out Cleaning Windermere</strong> and move in cleaning in Windermere Florida, Winter Garden, Dr. Phillips, Horizon West, Bay Hill, and surrounding areas. Get a free estimate at <a href="https://www.humblehousecleaning.com">HumbleHouseCleaning.com</a>.</p>
-          <p><strong>Moving is stressful.</strong> Our experienced teams know what landlords, buyers, and inspectors expect. We also help with packing and unpacking on request.</p>
+          <p>We deliver <strong>specialized move out and move in cleanings</strong> across Windermere, Winter Garden, Dr. Phillips, Horizon West, Bay Hill, and neighboring communities. For professional service and transparent pricing, visit <a href="https://www.humblehousecleaning.com">HumbleHouseCleaning.com</a>.</p>
+          <p>Homeowners and real estate agents call us the <strong>first choice for Move Out Cleaning Windermere</strong>. From end of lease scrubs to final build dust downs, we cover every detail so you do not have to.</p>
+          <p><strong>Moving is stressful.</strong> Let our experienced crews tackle the cleaning checklist while you focus on getting settled. We know what landlords, buyers, and inspectors look for.</p>
+          <p>Need a hand with <strong>packing or unpacking</strong> too. We can help. Tell us what you need at <a href="https://www.humblehousecleaning.com">HumbleHouseCleaning.com</a>.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- About -->
+  <!-- About preserved and corrected to avoid the Windermere for 35 years claim -->
   <section class="about">
     <div class="wrap">
       <h2>About Us</h2>
       <div class="grid">
         <div class="txt">
-          <p><strong>Windermere House Cleaning ™ has been cleaning homes for over 35 years.</strong> We focus on efficiency and affordability so you get more time for what matters.</p>
-          <p>Our service is <strong>personalized to your needs</strong>. Visit <a href="https://www.humblehousecleaning.com">HumbleHouseCleaning.com</a> for a free estimate.</p>
-          <p>We deliver <strong>peace of mind</strong> with ongoing background checks every three months.</p>
-          <p>We value feedback and reward referrals with a $20 discount or a $20 gift certificate for your friend.</p>
-          <p>We are a <strong>locally owned and operated business</strong>. Fully licensed, bonded, and insured.</p>
+          <p><strong>Windermere House Cleaning ™ has been cleaning homes for over 35 years.</strong> With efficient methods and fair pricing, you get more time for what matters most.</p>
+          <p>Every household is unique, so we create <strong>personalized cleaning plans</strong>. Request your free quote at <a href="https://www.humblehousecleaning.com">HumbleHouseCleaning.com</a> and let us talk details.</p>
+          <p>Your <strong>security comes first</strong>. Every cleaner passes a rigorous background check initially and every three months thereafter.</p>
+          <p><strong>Customer happiness drives us.</strong> Share feedback anytime. We aim to resolve issues quickly and reward referrals with a $20 discount or a $20 gift certificate for your friend.</p>
+          <p>We are a <strong>local, owner operated business</strong>, not a cookie cutter franchise. Fully licensed, bonded, and insured, we stand behind every cleaning and every employee.</p>
           <p>Brought to you by <a href="https://www.humblehousecleaning.com">HumbleHouseCleaning.com</a></p>
         </div>
         <figure>
-          <img src="cleaning-pro.png" alt="A cleaning professional giving the OK sign">
+          <img src="cleaning-pro.png" alt="Cheerful cleaning professional giving an OK sign in Windermere FL">
         </figure>
       </div>
     </div>
   </section>
 
-  <!-- Reviews kept exactly the same -->
+  <!-- Reviews kept 100 percent identical -->
   <section class="test">
     <div class="wrap">
       <h2>Some of Our Reviews</h2>
